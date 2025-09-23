@@ -5,8 +5,7 @@ This project uses the **UCI Diabetes 130-US hospitals dataset (1999–2008)** to
 The goal is to provide **actionable insights** that help healthcare providers reduce avoidable readmissions, improve patient outcomes, and optimize resource allocation.  
 
 ## Repo Structure
-- **`notebooks/`** → exploratory analysis and prototyping.  
-- **`train.py`** → main training pipeline (EDA → cleaning → preprocessing → modeling → save best model).  
+- **`notebooks/`** → main training pipeline (EDA → cleaning → preprocessing → modeling → save best model).    
 - **`app.py`** → lightweight API for serving predictions.  
 - **`models/`** → serialized model artifacts for reuse.  
 - **`data/`** → cleaned dataset persisted in SQLite for reproducibility. 
