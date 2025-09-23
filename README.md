@@ -68,23 +68,8 @@ The goal is to provide **actionable insights** that help healthcare providers re
 
 ## 💡 Additional Questions & Why They Matter
 
-Beyond 30-day readmission, this dataset can answer other valuable questions:
 
-1. **Length-of-Stay Prediction**  
-   - *Why it matters:* Helps hospitals forecast bed demand and staffing.  
-   - *Approach:* Regression model predicting `time_in_hospital` using demographics, admission details, and diagnoses.  
-
-2. **Frequent-Readmission Risk (90-day horizon)**  
-   - *Why it matters:* Identifies “high-utilizer” patients who cycle through repeated admissions, guiding targeted care programs.  
-   - *Approach:* Define outcome as ≥2 readmissions in 90 days; train classification model.  
-
-3. **Diagnosis Group Analysis**  
-   - *Why it matters:* Shows which medical conditions drive readmissions, informing prevention programs.  
-   - *Approach:* Map ICD-9 codes to chapters; compute readmission rates by group.  
-
----
-
-## 🏥 Business Impact & Extensions
+### 🏥 Business Impact & Extensions
 
 ### 1. "Netflix for Patient Care" – Personalized Treatment Recommendations
 - **What it does:**  
