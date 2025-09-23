@@ -21,7 +21,7 @@ The goal is to provide **actionable insights** that help healthcare providers re
 - **Missingness:**  
   - `weight` (97%), `max_glu_serum` (95%), and `A1Cresult` (83%) → mostly unusable, may be dropped or treated as “not measured.”  
   - `medical_specialty` (~49%) and `payer_code` (~40%) → partially useful, need imputation or grouping.  
-- **High cardinality:** Diagnosis codes (`diag_1–3`) have 700+ unique values each. → Must group into broader ICD-9 chapters.  
+- **High cardinality:** Diagnosis codes (`diag_1–3`) have 700+ unique values each. → Must group into broader Categories.  
 - **Patient-level leakage risk:** Patients (`patient_nbr`) appear multiple times → must **split data grouped by patient** to avoid inflating results.  
 - **Usable features at discharge:** demographics, admission/discharge info, length of stay, utilization counts, lab test results, and medication use.
 
